@@ -9,7 +9,6 @@ Class.extend = function (child) {
     F.prototype = parent.prototype;
     child.prototype = new F();
     child.prototype.constructor = child;
-    child.prototype._parent = parent;
 
     function makeParentConstructor(parent) {
         return function () {
@@ -30,6 +29,9 @@ Class.extend = function (child) {
     for (var k in parent) {
         child[k] = parent[k];
     }
+
+    child._super = parent;
+    child.prototype._self = child;
 
     return child;
 };
