@@ -1,5 +1,14 @@
 {
     "name": "Class",
     "version": "0.0.1",
-    "description": "Simple inheritance library"
+    "author": "h3x3d",
+    "keywords": ["inheritance", "class"],
+    "homepage": "https://github.com/h3x3d/class",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:h3x3d/class.git"
+    },
+    "bugs": "https://github.com/h3x3d/class/issues",
+    "description": "Simple inheritance library",
+    "dependencies": {}
 }
