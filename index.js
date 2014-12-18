@@ -15,8 +15,7 @@ Class.extend = function (child) {
         return function () {
             if (parent.prototype._parent) {
                 this._construct = makeParentConstructor(parent.prototype._parent);
-            }
-            else {
+            } else {
                 delete this._construct;
             }
             var s = parent.apply(this, arguments);
