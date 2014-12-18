@@ -2,7 +2,7 @@
 A simple class library
 
 Sample usage:
-```
+```javascript
 var Class = require('class');
 
 var Animal = Class.extend(function Animal(){
@@ -59,3 +59,4 @@ TODO:
  - Static properties must be cloned instead of simple assign
 
 > Written with [StackEdit](https://stackedit.io/).
+> Developed with [Cloud9 IDE](https://c9.io/).
