@@ -3,13 +3,13 @@
     "version": "0.0.1",
     "author": "h3x3d",
     "keywords": ["inheritance", "class"],
-    "homepage": "https://github.com/h3x3d/class",
+    "homepage": "https://github.com/onetwotrip/class",
     "repository": {
         "type": "git",
-        "url": "git@github.com:h3x3d/class.git"
+        "url": "git@github.com:onetwotrip/class.git"
     },
     "bugs": {
-        "url": "https://github.com/h3x3d/class/issues"
+        "url": "https://github.com/onetwotrip/class/issues"
     },
     "description": "Simple inheritance library",
     "dependencies": {}
